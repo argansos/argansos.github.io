@@ -1,21 +1,21 @@
 intro:
-    name: Foo Bar
-    title: Backend Developer
+    name: Ganquan Mao
+    title: Research Assistant Professor
     avatar:
         display: true
-        path: profile.png
+        path: profile.jpeg
 
 contact:
-    email: me@example.com
-    phone: +86-111-1111-1111
+    email: ganquan.mao@icloud.com
+    phone:
     wechat: 
     telegram: 
-    website: https://example.com
+    website: https://argansos.github.io
     linkedin: 
-    github: github
+    github: https://github.com/argansos
     gitlab: 
     bitbucket: 
-    twitter: twitter
+    twitter:
     stackoverflow: 
     codewars: 
     goodreads: 
