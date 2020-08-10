@@ -3,7 +3,7 @@ intro:
     title: Research Assistant Professor
     avatar:
         display: true
-        path: profile.jpeg
+        path: ../profile.jpeg
 
 contact:
     email: ganquan.mao@icloud.com
@@ -22,7 +22,7 @@ contact:
 
 languages:
     display: true
-    title: Languages
+    title: LANGUAGES
     items:
         - idiom: Chinese
           level: Native
@@ -32,62 +32,53 @@ languages:
 
 interests:
     display: true
-    title: Interests
+    title: RESEARCH INTERESTS
     items:
-        - item: Reading
+        - item: Large scale hydrological model development
           link:
-        - item: Cooking
+        - item: Impacts of anthropogenic climate change on hydrology and water resources 
+        - item: Terrestrial Water cycle intensification under climate change
     
 profile:
     display: true
-    title: Profile
+    title: BIOGRAPHY
     details: |
-      It's your career profile, you can wirte markdown format text.
-      + First
-      + Second
-
-      ...
+      Dr. Ganquan Mao is a Research Assistant Professor at Southern University of Science and Technology (SUSTech). His main research interests include the development and application of hydrological models, the impact of climate change on the hydrological cycle, and the spatial and temporal characteristics of water resources under global change. He has developed a Copula-based dynamic downscaling bias correction model CBBCM (Copula-Based Bias Correction Method) and a large-scale distributed hydrological model WAYS (Water and ecosYstem Simulator). His researches were published in Bulletin of the American Meteorological Society, Geoscientific Model Development, Hydrology and Earth System Sciences and other journals. Dr. Ganquan Mao is the Contributing Author of the chapter 4 of the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6). He has received the award of Shenzhen Overseas High-level Overseas Talents (Peacock Program).
 
 education:
     display: true
-    title: Education
+    title: EDUCATION
     items:
-        - university: Example University
-          time: 2015 - 2018
-          major: Machine Learning
+        - university: University of Augsburg
+          time: 2010.11 - 2016.03
+          major: Regional Climate and Hydrology
           degree: Master
           details: |
-            Experience in this university:
-            + First
-            + Second
-            
-            ...
+            InsJtute of Geography, Faculty of Applied Computer Science
+
+        - university: Hohai University
+          time: 2007.09 - 2010.06
+          major: Water Conservancy
+          degree: Master
+          details: |
+            College of Hydrology and Water Resources
         
-        - university: Example University
-          time: 2011 - 2015
-          major: Computer Science
+        - university: Hohai University
+          time: 2003.09 - 2007.06
+          major: Urban and Rural Planning & Resources Management
           degree: Bachelor
           details: |
-            Experience in this university:
-            + First
-            + Second
-            
-            ...
+            College of Water Resources and Environment
 
 experiences:
     display: true
-    title: Experiences
+    title: EXPERIENCE
     items:
-        - role: Backend Developer
-          time: 2018.03 - 2019.03
-          company: Second Company
-          location: Beijing
-          details: |
-            Experience in this company:
-            + First
-            + Second
-
-            ...
+        - role: Research Assistant Professor
+          time: 2020.03 - present
+          company: School of Environmental Science and Engineering, Southern University of Science and Technology
+          location: Shenzhen
+          details:
         
         - role: Backend Developer
           time: 2017.03 - 2018.03
