@@ -1,6 +1,6 @@
 intro:
-    name: Ganquan Mao 冒甘泉
-    title: Research Assistant Professor 研究助理教授
+    name: Ganquan Mao
+    title: Research Assistant Professor
     avatar:
         display: true
         path: profile.jpeg
@@ -102,7 +102,6 @@ projects:
     
     items:
         - name: Research on Risk Adaptation of Global Extreme Hydrological Events Based on Virtual Water Trade Theory
-        科技部
           link: 
           details: |
             + Host (2017 - 2022)
