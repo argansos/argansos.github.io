@@ -1,5 +1,5 @@
 intro:
-    name: Ganquan Mao
+    name: Ganquan Mao 冒甘泉
     title: Research Assistant Professor
     avatar:
         display: true
@@ -129,7 +129,7 @@ publications:
         - title: Zhang, X., Zhao, X., Li, R., Mao, G., Tillotson, M.R., Liao, X., Zhang, C., Yi, Y., 2020. Evaluating the vulnerability of physical and virtual water resource networks in China’s megacities. Resour. Conserv. Recycl. 161, 104972.
           authors:
           conference:
-          link: https://doi.org/https://doi.org/10.1016/j.resconrec.2020.104972
+          link: https://doi.org/10.1016/j.resconrec.2020.104972
         
         - title: The Art of Bar
           authors: Foo Bar
