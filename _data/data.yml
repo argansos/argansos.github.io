@@ -1,9 +1,9 @@
 intro:
-    name: Ganquan Mao
-    title: Research Assistant Professor
+    name: Ganquan Mao 冒甘泉
+    title: Research Assistant Professor 研究助理教授
     avatar:
         display: true
-        path: ../profile.jpeg
+        path: profile.jpeg
 
 contact:
     email: ganquan.mao@icloud.com
@@ -43,7 +43,7 @@ profile:
     display: true
     title: BIOGRAPHY
     details: |
-      Dr. Ganquan Mao is a Research Assistant Professor at Southern University of Science and Technology (SUSTech). His main research interests include the development and application of hydrological models, the impact of climate change on the hydrological cycle, and the spatial and temporal characteristics of water resources under global change. He has developed a Copula-based dynamic downscaling bias correction model CBBCM (Copula-Based Bias Correction Method) and a large-scale distributed hydrological model WAYS (Water and ecosYstem Simulator). His researches were published in Bulletin of the American Meteorological Society, Geoscientific Model Development, Hydrology and Earth System Sciences and other journals. Dr. Ganquan Mao is the Contributing Author of the chapter 4 of the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6). He has received the award of Shenzhen Overseas High-level Overseas Talents (Peacock Program).
+      Dr. Ganquan Mao is a Research Assistant Professor at Southern University of Science and Technology (SUSTech). His main research interests include the development and application of hydrological models, the impact of climate change on the hydrological cycle, and the spatial and temporal characteristics of water resources under global change. He has developed a Copula-based dynamic downscaling bias correction model CBABC (Copula-Based Approach for Bias Correction) and a large-scale distributed hydrological model WAYS (Water and ecosYstem Simulator). His researches were published in Bulletin of the American Meteorological Society, Geoscientific Model Development, Hydrology and Earth System Sciences and other journals. Dr. Ganquan Mao is the Contributing Author of the chapter 4 of the Intergovernmental Panel on Climate Change (IPCC) Sixth Assessment Report (AR6). He has received the award of Shenzhen Overseas High-level Overseas Talents (Peacock Program).
 
 education:
     display: true
@@ -52,9 +52,9 @@ education:
         - university: University of Augsburg
           time: 2010.11 - 2016.03
           major: Regional Climate and Hydrology
-          degree: Master
+          degree: Doctor
           details: |
-            InsJtute of Geography, Faculty of Applied Computer Science
+            Institute of Geography, Faculty of Applied Computer Science
 
         - university: Hohai University
           time: 2007.09 - 2010.06
@@ -74,51 +74,63 @@ experiences:
     display: true
     title: EXPERIENCE
     items:
-        - role: Research Assistant Professor
+        - role: School of Environmental Science and Engineering
           time: 2020.03 - present
-          company: School of Environmental Science and Engineering, Southern University of Science and Technology
+          company: Research Assistant Professor
           location: Shenzhen
-          details:
-        
-        - role: Backend Developer
-          time: 2017.03 - 2018.03
-          company: First Company
-          location: Beijing
           details: |
-            Experience in this company:
-            + First
-            + Second
+            Southern University of Science and Technology
+        
+        - role: School of Environmental Science and Engineering
+          time: 2017.04 - 2020.02
+          company: Postdoctoral Researcher
+          location: Shenzhen
+          details: |
+            Southern University of Science and Technology
 
-            ...
+        - role: School of Environmental Science and Engineering
+          time: 2016.08 - 2017.03
+          company: Visiting Scholar
+          location: Shenzhen
+          details: |
+            Southern University of Science and Technology
 
 projects:
     display: true
-    title: Projects
-    intro: |
-      This is all the projects I'm involved in.
+    title: PROJECTS
+    intro:
     
     items:
-        - name: Foo
+        - name: Research on Risk Adaptation of Global Extreme Hydrological Events Based on Virtual Water Trade Theory
+        科技部
           link: 
           details: |
-            Project Foo's detail, you can write markdown format text.
+            + Host (2017 - 2022)
+            + Ministry of Science and Technology of the People’s Republic of China
+            + National Key R&D Program of China (NO. 2017YFA06003704)
 
-        - name: Bar
+        - name: Climate and Water in Great River Region in Southeast-South Asia
           link: 
           details: |
-            Project Bar's detail, you can write markdown format text.
+            + Participant (2018 - 2023)
+            + Chinese Academy of Sciences Strategic Priority Research Program (XDA20060400)
+
+        - name: Water Resources EvaluaFon in Natural-economic System
+          link: 
+          details: |
+            + Participant (2017 - 2021)
+            + NaJonal Natural Science FoundaJon of China (41625001)
 
 publications:
     display: true
-    title: Publications
-    intro: |
-      This is all the books I wrote.
+    title: PUBLICATIONS
+    intro:
 
     items:
-        - title: Foo in Action
-          authors: Foo Bar
-          conference: Foobar, 2019
-          link: https://www.google.com
+        - title: Zhang, X., Zhao, X., Li, R., Mao, G., Tillotson, M.R., Liao, X., Zhang, C., Yi, Y., 2020. Evaluating the vulnerability of physical and virtual water resource networks in China’s megacities. Resour. Conserv. Recycl. 161, 104972.
+          authors:
+          conference:
+          link: https://doi.org/https://doi.org/10.1016/j.resconrec.2020.104972
         
         - title: The Art of Bar
           authors: Foo Bar
