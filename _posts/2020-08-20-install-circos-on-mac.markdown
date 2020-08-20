@@ -4,7 +4,7 @@ title:      "INSTALLING CIRCOS ON MAC OSX"
 subtitle:   "A step-by-setp setup instructions"
 date:       2020-08-20 12:00:00
 author:     "argansos"
-header-img: "img/bg_tech.jpg"
+header-img: "img/bg-tech.jpg"
 catalog: true
 tags:
     - tech
