@@ -1,64 +1,63 @@
-# online-resume
+[Hux Blog](https://huangxuan.me)
+================================
 
-[English](README.md) | [简体中文](README_CN.md)
+> I never expected this becomes popular.
 
----
+![](http://huangxuan.me/img/blog-desktop.jpg)
 
-Yet another resume template based on jekyll. You can wirte your resume using markdown, it will be rendered into html and can be printed as pdf.
 
-Features:
+[User Manual 👉](_doc/Manual.md)
+--------------------------------------------------
 
-+ Easy to use/edit/hide
-+ Jekyll + Markdown + Github Pages
-+ Multiple languages
-+ Multiple skins
-+ Content modular
-+ Responsive display
-+ Print friendly
+### Getting Started
 
-Enjoy yourself!
+1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
 
-## Getting Started
+2. Installed dependencies in the `Gemfile`:
 
-### Usage
+```sh
+$ bundle install 
+```
 
-#### Quickly
+3. Serve the website (`localhost:4000` by default):
 
-Fork this repo:
+```sh
+$ bundle exec jekyll serve  # alternatively, npm start
+```
 
-![](./assets/images/fork.png "fork this repo")
+### Development (Build From Source)
 
-Edit the yaml file located in `_data/data.yml`:
+To modify the theme, you will need [Grunt](https://gruntjs.com/). There are numbers of tasks you can find in the `Gruntfile.js`, includes minifing JavaScript, compiling `.less` to `.css`, adding banners to keep the Apache 2.0 license intact, watching for changes, etc. 
 
-![](./assets/images/edit.png "edit the yaml file")
+Yes, they were inherited and are extremely old-fashioned. There is no modularization and transpilation, etc.
 
-Setting the github pages source branch in `settings -> Github Pages -> source`, select `master branch`:
+Critical Jekyll-related code are located in `_include/` and `_layouts/`. Most of them are [Liquid](https://github.com/Shopify/liquid/wiki) templates.
 
-![](./assets/images/source.png "select github pages source branch")
+This theme uses the default code syntax highlighter of jekyll, [Rouge](http://rouge.jneen.net/), which is compatible with Pygments theme so just pick any pygments theme css (e.g. from [here](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html) and replace the content of `highlight.less`.
 
-Wait a little while, open `https://YOUR_GITHUB_USERNAME.github.io/online-resume` in your browser. You can see your resume.
 
-![](./assets/images/resume.png "resume")
+### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
 
-If you want to print your resume, just press shortcut of print. Also it can be saved as a pdf file.
 
-#### Locally
+Other Resources
+---------------
 
-If you want to use it locally, you shoule clone this repo then just like deploying a regular jekyll website.
+Ports
+- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
+- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
 
-### Customization
+[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
+- Out of date. Helps wanted for updating it on par with the main repo
 
-+ `_data/data.yml`: All the resume content.
-+ `assets/images/profile.png`: Your profile photo.
-+ `_config.yml`: Site's general settings.
-+ `index.html`: Change the resume content's display order.
-+ `_sass/_base.scss`: Change the resume display style.
-+ `robots.txt`: If you don't want your resume to be recorded in the search engine, modify this file.
+Translation
+- [🇨🇳 (somewhat outdated)](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/README.zh.md)
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+License
+-------
 
-## Acknowledgments
+Apache License 2.0.
+Copyright (c) 2015-present Huxpro
 
-Inspired by [online-cv](https://github.com/sharu725/online-cv), this is a very amazing resume template.
+Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
+Copyright (c) 2013-2016 Blackrock Digital LLC.
