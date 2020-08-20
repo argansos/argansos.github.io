@@ -89,3 +89,7 @@ Now, you are ready for using circos. Be sure to add the path of circos into your
 ```bash
 PATH="/Users/your_username/Applications/circos/current/bin${PATH:+:${PATH}}"; export PATH;
 ```
+
+##### Reference
+* [Aidan Quinn's post](http://aidanquinn.net/blog/blog/2015/11/11/installing-circos-on-mac-osx/)
+* [Circos's Documentation](http://circos.ca/software/installation/)
