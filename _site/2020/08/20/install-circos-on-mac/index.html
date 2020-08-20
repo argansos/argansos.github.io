@@ -11,16 +11,28 @@
     <meta name="theme-color" content="#000000">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Offline - 小机器人的博客 | Little Robot's Blog">
+    <meta property="og:title" content="INSTALLING CIRCOS ON MAC OSX - 小机器人的博客 | Little Robot's Blog">
     
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="阅读过的页面可以在离线时访问哦 ;)">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="1. Install Homebrew
+">
+    
+    <meta property="article:published_time" content="2020-08-20T20:00:00Z">
+    
+    
+    <meta property="article:author" content="argansos">
+    
+    
+    <meta property="article:tag" content="tech">
+    
+    <meta property="article:tag" content="circos">
+    
     
     <meta property="og:image" content="http://localhost:4000/img/avator_me.jpg">
-    <meta property="og:url" content="http://localhost:4000/offline.html">
+    <meta property="og:url" content="http://localhost:4000/2020/08/20/install-circos-on-mac/">
     <meta property="og:site_name" content="小机器人的博客 | Little Robot's Blog">
     
-    <title>Offline - 小机器人的博客 | Little Robot's Blog</title>
+    <title>INSTALLING CIRCOS ON MAC OSX - 小机器人的博客 | Little Robot's Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -29,7 +41,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/offline.html">
+    <link rel="canonical" href="http://localhost:4000/2020/08/20/install-circos-on-mac/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -188,33 +200,297 @@
   </div>
 </div>
 
-    <!-- Page Header -->
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/bg_tech.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
 
 
 
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/bg_tech.jpg');
+        background: ;
+    }
 
+    
+</style>
 
+<header class="intro-header" >
 
-
-<header class="intro-header" style="background-image: url('/img/404-bg.jpg')">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="site-heading">
-        
-          <h1>Offline</h1>
-          <span class="subheading">阅读过的页面可以在离线时访问哦 ;)</span>
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/archive/?tag=tech" title="tech">tech</a>
+                        
+                        <a class="tag" href="/archive/?tag=circos" title="circos">circos</a>
+                        
+                    </div>
+                    <h1>INSTALLING CIRCOS ON MAC OSX</h1>
+                    
+                    <h2 class="subheading">A step-by-setp setup instructions</h2>
+                    <span class="meta">Posted by argansos on August 20, 2020</span>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </header>
 
 
-<script>
-	document.body.classList.add('page-fullscreen');
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+				<h5 id="1-install-homebrew">1. Install Homebrew</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ruby <span class="nt">-e</span> <span class="s2">"</span><span class="si">$(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/master/install<span class="si">)</span><span class="s2">"</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h5 id="2-requirements-before-installing">2. Requirements before installing</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>perl <span class="nt">-v</span>
+which make
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>Be sure that Perl and make (Xcode) are installed</p>
+</blockquote>
+
+<h5 id="3-download-and-install-circos">3. Download and install Circos</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo mkdir</span> ~/Applications/circos/
+<span class="nb">sudo chown</span> <span class="s2">"</span><span class="nv">$USER</span><span class="s2">"</span>:admin ~/Applications/circos/
+<span class="nb">cd</span> ~/Applications/circos/
+curl <span class="nt">-L</span> http://circos.ca/distribution/circos-0.69-9.tgz <span class="nt">-o</span> circos-0.69-9.tgz
+<span class="nb">tar </span>xvfz circos-0.69-9.tgz
+<span class="nb">rm </span>circos-0.69-9.tgz
+<span class="nb">ln</span> <span class="nt">-s</span> circos-0.69-9.tgz current
+<span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span>~/Applications/circos/current/bin/:<span class="nv">$PATH</span>
+<span class="nb">.</span> ~/.zshrc
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h5 id="4-check-for-modules--instalation">4. Check for modules &amp; instalation</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>~/Applications/circos/current/bin/circos <span class="nt">-modules</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>Remember the missing modules.</p>
+</blockquote>
+
+<h5 id="5-install-missing-perl-modules">5. Install missing Perl modules</h5>
+
+<p>Use CPAN to install and update modules</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>Be sure to answer yes to everything if this is your first time using CPAN</p>
+</blockquote>
+
+<p>At cpan[1] consol, first update cpan:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">install </span>CPAN
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Then, install the missing modules by using <code class="language-plaintext highlighter-rouge">install</code> command in cpan consol and exit the consol by run the command <code class="language-plaintext highlighter-rouge">exit</code>. E.g.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">install </span>Math::Bezier
+<span class="nb">exit</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>IMPORTANT - if GD and/or GD::Polyline is missing, you must install libgd before installing GD</p>
+</blockquote>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>brew <span class="nb">install </span>libgd
+
+perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
+<span class="nb">install </span>GD
+<span class="nb">install </span>GD::Polyline
+<span class="nb">exit</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h5 id="6-update-the-shell-configratuon">6. Update the shell configratuon</h5>
+
+<p>Now, you are ready for using circos. Be sure to add the path of circos into your environment by adding the following into .zshrc or .bashrc.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nv">PATH</span><span class="o">=</span><span class="s2">"/Users/your_username/Applications/circos/current/bin</span><span class="k">${</span><span class="nv">PATH</span>:+:<span class="k">${</span><span class="nv">PATH</span><span class="k">}}</span><span class="s2">"</span><span class="p">;</span> <span class="nb">export </span>PATH<span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+        <hr class="hidden-sm hidden-xs">
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        
+        
+    </div>
+</section>
+
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "hux";
+    var disqus_identifier = "/2020/08/20/install-circos-on-mac";
+    var disqus_url = "http://localhost:4000/2020/08/20/install-circos-on-mac/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 </script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'right',
+          // icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
 
 
     <!-- Footer -->

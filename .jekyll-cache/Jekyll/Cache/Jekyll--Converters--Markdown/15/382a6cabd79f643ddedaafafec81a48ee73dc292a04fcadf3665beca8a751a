@@ -1,0 +1,103 @@
+I"�<h5 id="1-install-homebrew">1. Install Homebrew</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ruby <span class="nt">-e</span> <span class="s2">"</span><span class="si">$(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/master/install<span class="si">)</span><span class="s2">"</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h5 id="2-requirements-before-installing">2. Requirements before installing</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>perl <span class="nt">-v</span>
+which make
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>Be sure that Perl and make (Xcode) are installed</p>
+</blockquote>
+
+<h5 id="3-download-and-install-circos">3. Download and install Circos</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo mkdir</span> ~/Applications/circos/
+<span class="nb">sudo chown</span> <span class="s2">"</span><span class="nv">$USER</span><span class="s2">"</span>:admin ~/Applications/circos/
+<span class="nb">cd</span> ~/Applications/circos/
+curl <span class="nt">-L</span> http://circos.ca/distribution/circos-0.69-9.tgz <span class="nt">-o</span> circos-0.69-9.tgz
+<span class="nb">tar </span>xvfz circos-0.69-9.tgz
+<span class="nb">rm </span>circos-0.69-9.tgz
+<span class="nb">ln</span> <span class="nt">-s</span> circos-0.69-9.tgz current
+<span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span>~/Applications/circos/current/bin/:<span class="nv">$PATH</span>
+<span class="nb">.</span> ~/.zshrc
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h5 id="4-check-for-modules--instalation">4. Check for modules &amp; instalation</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>~/Applications/circos/current/bin/circos <span class="nt">-modules</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>Remember the missing modules.</p>
+</blockquote>
+
+<h5 id="5-install-missing-perl-modules">5. Install missing Perl modules</h5>
+
+<p>Use CPAN to install and update modules</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>Be sure to answer yes to everything if this is your first time using CPAN</p>
+</blockquote>
+
+<p>At cpan[1] consol, first update cpan:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">install </span>CPAN
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Then, install the missing modules by using <code class="language-plaintext highlighter-rouge">install</code> command in cpan consol and exit the consol by run the command <code class="language-plaintext highlighter-rouge">exit</code>. E.g.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">install </span>Math::Bezier
+<span class="nb">exit</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<blockquote>
+  <p>IMPORTANT - if GD and/or GD::Polyline is missing, you must install libgd before installing GD</p>
+</blockquote>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>brew <span class="nb">install </span>libgd
+
+perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
+<span class="nb">install </span>GD
+<span class="nb">install </span>GD::Polyline
+<span class="nb">exit</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h5 id="5-update-the-shell-configratuon">5. Update the shell configratuon</h5>
+
+<p>Now, you are ready for using circos. Be sure to add the path of circos into your environment by adding the following into .zshrc or .bashrc.</p>
+
+<blockquote>
+  <p>PATH=”/Users/your_username/Applications/circos/current/bin${PATH:+:${PATH}}”; export PATH;</p>
+</blockquote>
+
+:ET
