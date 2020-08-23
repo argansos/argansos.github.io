@@ -75,8 +75,9 @@ exit
 
 ```bash
 brew install libgd
+brew install pkgconfig
 
-perl -MCPAN -e shell
+perl -MCPAN -e shell # you may need root permission to install GD
 install GD
 install GD::Polyline
 exit
