@@ -35,7 +35,7 @@ cd ~/Applications/circos/
 curl -L http://circos.ca/distribution/circos-0.69-9.tgz -o circos-0.69-9.tgz
 tar xvfz circos-0.69-9.tgz
 rm circos-0.69-9.tgz
-ln -s circos-0.69-9.tgz current
+ln -s circos-0.69-9 current
 export PATH=~/Applications/circos/current/bin/:$PATH
 . ~/.zshrc
 ```
@@ -92,4 +92,4 @@ PATH="/Users/your_username/Applications/circos/current/bin${PATH:+:${PATH}}"; ex
 
 ##### Reference
 * [Aidan Quinn's post](http://aidanquinn.net/blog/blog/2015/11/11/installing-circos-on-mac-osx/)
-* [Circos's Documentation](http://circos.ca/software/installation/)
+* [Circos Official Documentation](http://circos.ca/software/installation/)
