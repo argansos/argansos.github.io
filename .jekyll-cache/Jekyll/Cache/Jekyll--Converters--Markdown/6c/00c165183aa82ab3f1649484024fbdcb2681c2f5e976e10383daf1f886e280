@@ -1,0 +1,59 @@
+I"Ë<h5 id="script">script</h5>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+</pre></td><td class="rouge-code"><pre><span class="c"># Compile rsync 3.0.6</span>
+
+<span class="c"># Download and unarchive rsync and its patches</span>
+<span class="nb">cd</span> ~/Download
+curl <span class="nt">-L</span> <span class="nt">-O</span> http://rsync.samba.org/ftp/rsync/src/rsync-3.0.6.tar.gz
+<span class="nb">tar</span> <span class="nt">-xzvf</span> rsync-3.0.6.tar.gz
+<span class="nb">rm </span>rsync-3.0.6.tar.gz
+curl <span class="nt">-L</span> <span class="nt">-O</span> http://rsync.samba.org/ftp/rsync/src/rsync-patches-3.0.6.tar.gz
+<span class="nb">tar</span> <span class="nt">-xzvf</span> rsync-patches-3.0.6.tar.gz
+<span class="nb">rm </span>rsync-patches-3.0.6.tar.gz
+<span class="nb">cd </span>rsync-3.0.6
+
+<span class="c"># Apply patches relevant to preserving Mac OS X metadata</span>
+patch <span class="nt">-p1</span> &lt;patches/fileflags.diff
+patch <span class="nt">-p1</span> &lt;patches/crtimes.diff
+patch <span class="nt">-p1</span> &lt;patches/hfs-compression.diff
+
+<span class="c"># Configure, make, install</span>
+./prepare-source
+./configure
+make
+<span class="nb">sudo </span>make <span class="nb">install</span>
+
+<span class="c"># Verify your installation</span>
+/usr/local/bin/rsync <span class="nt">--version</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h5 id="reference">Reference</h5>
+<ul>
+  <li><a href="https://gist.github.com/Sounds-of-Science/7561838">Fred Valentinâ€™s github</a></li>
+</ul>
+:ET

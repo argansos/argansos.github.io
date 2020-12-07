@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "INSTALLING RSYNC WITH SPECIFIC VERSION ON MAC OSX",
+      "subtitle" : "A step-by-setp setup instructions",
+      "tags"     : "tech, rsync",
+      "url"      : "/2020/09/03/install-rsync-on-mac/",
+      "date"     : "2020-09-03 04:00:00 +0800"
+    } ,
+  
+    {
       "title"    : "INSTALLING CIRCOS ON MAC OSX",
       "subtitle" : "A step-by-setp setup instructions",
       "tags"     : "tech, circos",

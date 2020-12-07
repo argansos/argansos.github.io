@@ -5,9 +5,81 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Aug 2020 14:58:42 +0800</pubDate>
-    <lastBuildDate>Thu, 20 Aug 2020 14:58:42 +0800</lastBuildDate>
+    <pubDate>Mon, 07 Dec 2020 17:22:51 +0800</pubDate>
+    <lastBuildDate>Mon, 07 Dec 2020 17:22:51 +0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>INSTALLING RSYNC WITH SPECIFIC VERSION ON MAC OSX</title>
+        <description>&lt;h5 id=&quot;script&quot;&gt;script&lt;/h5&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;# Compile rsync 3.0.6&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Download and unarchive rsync and its patches&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Download
+curl &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; http://rsync.samba.org/ftp/rsync/src/rsync-3.0.6.tar.gz
+&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-xzvf&lt;/span&gt; rsync-3.0.6.tar.gz
+&lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;rsync-3.0.6.tar.gz
+curl &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; http://rsync.samba.org/ftp/rsync/src/rsync-patches-3.0.6.tar.gz
+&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-xzvf&lt;/span&gt; rsync-patches-3.0.6.tar.gz
+&lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;rsync-patches-3.0.6.tar.gz
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;rsync-3.0.6
+
+&lt;span class=&quot;c&quot;&gt;# Apply patches relevant to preserving Mac OS X metadata&lt;/span&gt;
+patch &lt;span class=&quot;nt&quot;&gt;-p1&lt;/span&gt; &amp;lt;patches/fileflags.diff
+patch &lt;span class=&quot;nt&quot;&gt;-p1&lt;/span&gt; &amp;lt;patches/crtimes.diff
+patch &lt;span class=&quot;nt&quot;&gt;-p1&lt;/span&gt; &amp;lt;patches/hfs-compression.diff
+
+&lt;span class=&quot;c&quot;&gt;# Configure, make, install&lt;/span&gt;
+./prepare-source
+./configure
+make
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Verify your installation&lt;/span&gt;
+/usr/local/bin/rsync &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;reference&quot;&gt;Reference&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/Sounds-of-Science/7561838&quot;&gt;Fred Valentin’s github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 03 Sep 2020 04:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/09/03/install-rsync-on-mac/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/09/03/install-rsync-on-mac/</guid>
+        
+        <category>tech</category>
+        
+        <category>rsync</category>
+        
+        
+      </item>
     
       <item>
         <title>INSTALLING CIRCOS ON MAC OSX</title>
@@ -46,7 +118,7 @@ which make
 curl &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; http://circos.ca/distribution/circos-0.69-9.tgz &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; circos-0.69-9.tgz
 &lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xvfz circos-0.69-9.tgz
 &lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;circos-0.69-9.tgz
-&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; circos-0.69-9.tgz current
+&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; circos-0.69-9 current
 &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;~/Applications/circos/current/bin/:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; ~/.zshrc
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -97,9 +169,11 @@ curl &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; http://circos.ca/distribut
 4
 5
 6
+7
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;libgd
+brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;pkgconfig
 
-perl &lt;span class=&quot;nt&quot;&gt;-MCPAN&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; shell
+perl &lt;span class=&quot;nt&quot;&gt;-MCPAN&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; shell &lt;span class=&quot;c&quot;&gt;# you may need root permission to install GD&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;GD
 &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;GD::Polyline
 &lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;
@@ -116,7 +190,7 @@ perl &lt;span class=&quot;nt&quot;&gt;-MCPAN&lt;/span&gt; &lt;span class=&quot;n
 &lt;h5 id=&quot;reference&quot;&gt;Reference&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://aidanquinn.net/blog/blog/2015/11/11/installing-circos-on-mac-osx/&quot;&gt;Aidan Quinn’s post&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://circos.ca/software/installation/&quot;&gt;Circos’s Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://circos.ca/software/installation/&quot;&gt;Circos Official Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 20 Aug 2020 20:00:00 +0800</pubDate>

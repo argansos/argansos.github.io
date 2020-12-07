@@ -28,7 +28,7 @@
     <meta property="article:tag" content="circos">
     
     
-    <meta property="og:image" content="http://localhost:4000/img/avator_me.jpg">
+    <meta property="og:image" content="http://localhost:4000/img/avatar-me.jpg">
     <meta property="og:url" content="http://localhost:4000/2020/08/20/install-circos-on-mac/">
     <meta property="og:site_name" content="小机器人的博客 | Little Robot's Blog">
     
@@ -297,7 +297,7 @@ which make
 curl <span class="nt">-L</span> http://circos.ca/distribution/circos-0.69-9.tgz <span class="nt">-o</span> circos-0.69-9.tgz
 <span class="nb">tar </span>xvfz circos-0.69-9.tgz
 <span class="nb">rm </span>circos-0.69-9.tgz
-<span class="nb">ln</span> <span class="nt">-s</span> circos-0.69-9.tgz current
+<span class="nb">ln</span> <span class="nt">-s</span> circos-0.69-9 current
 <span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span>~/Applications/circos/current/bin/:<span class="nv">$PATH</span>
 <span class="nb">.</span> ~/.zshrc
 </pre></td></tr></tbody></table></code></pre></div></div>
@@ -348,9 +348,11 @@ curl <span class="nt">-L</span> http://circos.ca/distribution/circos-0.69-9.tgz 
 4
 5
 6
+7
 </pre></td><td class="rouge-code"><pre>brew <span class="nb">install </span>libgd
+brew <span class="nb">install </span>pkgconfig
 
-perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
+perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell <span class="c"># you may need root permission to install GD</span>
 <span class="nb">install </span>GD
 <span class="nb">install </span>GD::Polyline
 <span class="nb">exit</span>
@@ -367,7 +369,7 @@ perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
 <h5 id="reference">Reference</h5>
 <ul>
   <li><a href="http://aidanquinn.net/blog/blog/2015/11/11/installing-circos-on-mac-osx/">Aidan Quinn’s post</a></li>
-  <li><a href="http://circos.ca/software/installation/">Circos’s Documentation</a></li>
+  <li><a href="http://circos.ca/software/installation/">Circos Official Documentation</a></li>
 </ul>
 
 
@@ -375,15 +377,16 @@ perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
                 <ul class="pager">
                     
                     
+                    <li class="next">
+                        <a href="/2020/09/03/install-rsync-on-mac/" data-toggle="tooltip" data-placement="top" title="INSTALLING RSYNC WITH SPECIFIC VERSION ON MAC OSX">
+                        Next<br>
+                        <span>INSTALLING RSYNC WITH SPECIFIC VERSION ON MAC OSX</span>
+                        </a>
+                    </li>
+                    
                 </ul>
                 <hr style="visibility: hidden;">
 
-                
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
                 
 
                 
@@ -444,21 +447,6 @@ perl <span class="nt">-MCPAN</span> <span class="nt">-e</span> shell
 
 
 
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "hux";
-    var disqus_identifier = "/2020/08/20/install-circos-on-mac";
-    var disqus_url = "http://localhost:4000/2020/08/20/install-circos-on-mac/";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
 
 
 
