@@ -101,4 +101,9 @@ page-mathjax: false
 
 
 # Friends
-friends: 
+friends: [
+    {
+        title: "- Scientific Database (SUSTech)",
+        href: "http://www.scidb.cn/en/institution/SUSTech"
+    }
+]
