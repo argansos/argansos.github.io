@@ -14,9 +14,10 @@ tags:
 ##### Mount directly via terminal (need to do it every time you restart the pc)
 
 ```bash
-# Install the ifmetric
+# Mount the nfs shared folder
 sudo mount -t nfs 169.254.254.168:/volume1/tom /nfsfile
 ```
+You may need to install nfs-common before you mount nfs shared folder.
 
 ##### Automatically mount after the computer started
 
