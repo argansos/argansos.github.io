@@ -26,8 +26,9 @@
 
 #### 论文发表
 
+- Chen, H., Liu, J., Mao, G., Wang, Z., Zeng, Z., Chen, A., Wang, K., & Chen, D. (2021). Science of the Total Environment Intercomparison of ten ISI-MIP models in simulating discharges along the Lancang-Mekong River basin. Science of the Total Environment, 765, 144494. https://doi.org/10.1016/j.scitotenv.2020.144494
 - Liu, J., Zhao, D., Mao, G., Cui, W., Chen, H., & Yang, H. (2020). Environmental Sustainability of Water Footprint in Mainland China. Geography and Sustainability, 1, 8–17. https://doi.org/10.1016/j.geosus.2020.02.002
-Meng, Y., Liu, J., Leduc, S., Mesfun, S., Kraxner, F., Mao, G., Qi, W., & Wang, Z. (2020). Hydropower production benefits more from 1.5°C than 2°C climate scenario. Water Resources Research, 55, e2019WR025519. https://doi.org/10.1029/2019wr025519
+- Meng, Y., Liu, J., Leduc, S., Mesfun, S., Kraxner, F., Mao, G., Qi, W., & Wang, Z. (2020). Hydropower production benefits more from 1.5°C than 2°C climate scenario. Water Resources Research, 55, e2019WR025519. https://doi.org/10.1029/2019wr025519
 - Zhang, X., Zhao, X., Li, R., Mao, G., Tillotson, M. R., Liao, X., Zhang, C., & Yi, Y. (2020). Evaluating the vulnerability of physical and virtual water resource networks in China’s megacities. Resources, Conservation and Recycling, 161, 104972. https://doi.org/10.1016/j.resconrec.2020.104972
 - Liu, J., Bawa, K. S., Seager, T. P., Mao, G., Ding, D., Lee, J. S. H., & Swim, J. K. (2019). On knowledge generation and use for sustainability. Nature Sustainability, 2(2), 80–82. https://doi.org/10.1038/s41893-019-0229-y
 - Mao, G., & Liu, J. (2019). WAYS v1: a hydrological model for root zone water storage simulation on a global scale. Geoscientific Model Development, 12(12), 5267–5289. https://doi.org/10.5194/gmd-12-5267-2019
