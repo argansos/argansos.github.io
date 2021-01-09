@@ -27,6 +27,7 @@ Ganquan Mao is currently a Research Assistant Professor at Southern University o
 
 #### Publications (Research Articles)
 
+- Wang, K., Liu, J., Xia, J., Wang, Z., Meng, Y., Chen, H., et al. (2021). Resources , Conservation & Recycling Understanding the impacts of climate change and socio-economic development through food-energy-water nexus : A case study of mekong river delta. Resources, Conservation & Recycling, 167, 105390. https://doi.org/10.1016/j.resconrec.2020.105390
 - Chen, H., Liu, J., Mao, G., Wang, Z., Zeng, Z., Chen, A., Wang, K., & Chen, D. (2021). Science of the Total Environment Intercomparison of ten ISI-MIP models in simulating discharges along the Lancang-Mekong River basin. Science of the Total Environment, 765, 144494. https://doi.org/10.1016/j.scitotenv.2020.144494
 - Liu, J., Zhao, D., Mao, G., Cui, W., Chen, H., & Yang, H. (2020). Environmental Sustainability of Water Footprint in Mainland China. Geography and Sustainability, 1, 8–17. https://doi.org/10.1016/j.geosus.2020.02.002
 - Meng, Y., Liu, J., Leduc, S., Mesfun, S., Kraxner, F., Mao, G., Qi, W., & Wang, Z. (2020). Hydropower production benefits more from 1.5°C than 2°C climate scenario. Water Resources Research, 55, e2019WR025519. https://doi.org/10.1029/2019wr025519
