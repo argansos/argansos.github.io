@@ -12,13 +12,14 @@ tags:
     - modflow
 ---
 
-##### Install the gfortan
+##### Install the Fortran compiler gfortran
 
 ```bash
 sudo apt-get install gfortran
 ```
 
-##### Download the [latest version](https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model#hist) and unpack it, you may need to install p7zip-full to unpack the zip.
+##### Download the [latest version](https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model#hist) and unpack it
+you may need to install p7zip-full to unpack the zip.
 
 ```bash
 cd Downloads
@@ -41,7 +42,7 @@ cd ../examples/ex-gwt-henry-a
 ./../../make/mf6
 ```
 
-p.s. I would recommend to move <code style="color:red">mf6</code> to <code style="color:red">/opt</code>, better with also the examples, source code and documentations, and set appropriate folder and file permission, then create a link to it to call it directly.
+p.s. I would recommend you to move <code style="color:red">mf6</code> to <code style="color:red">/opt</code>, better with also the examples, source code and documentations, and set appropriate folder and file permission, then create a link to it to call it directly.
 
 ##### Reference
 * [Simon Wenkel's post](https://www.simonwenkel.com/2018/04/15/compiling-MODFLOW-on-linux.html)
