@@ -9,6 +9,7 @@ catalog: true
 tags:
     - tech
     - linux
+    - ssh
 ---
 
 ##### Generate ssh keygen

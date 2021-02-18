@@ -9,6 +9,7 @@ catalog: true
 tags:
     - tech
     - circos
+    - macOS
 ---
 
 ##### 1. Install Homebrew

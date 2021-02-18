@@ -9,6 +9,7 @@ catalog: true
 tags:
     - tech
     - linux
+    - synology
 ---
 
 ##### Mount directly via terminal (need to do it every time you restart the pc)

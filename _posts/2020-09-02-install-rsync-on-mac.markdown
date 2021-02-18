@@ -9,6 +9,7 @@ catalog: true
 tags:
     - tech
     - rsync
+    - macOS
 ---
 
 ##### script
