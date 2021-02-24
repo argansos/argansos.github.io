@@ -26,7 +26,7 @@
 
 #### 论文发表
 
-- 张如强, 刘俊国, **冒甘泉**, & 王丽. (2021). 基于改进 RVA 法的黑河上游水文情势变化分析. 干旱区研究, 1–10. Retrieved from <https://kns.cnki.net/kcms/detail/65.1095.X.20210118.1748.009.html>
+- 张如强, 刘俊国, **冒甘泉**, & 王丽. (2021). 基于改进 RVA 法的黑河上游水文情势变化分析. 干旱区研究, 1–10. <https://kns.cnki.net/kcms/detail/65.1095.X.20210118.1748.009.html>
 - Meng, Y., Liu, J., Wang, Z., **Mao, G.**, Wang, K., & Yang, H. (2021). Resources , Conservation & Recycling Undermined co-benefits of hydropower and irrigation under climate change. Resources, Conservation & Recycling, 167, 105375. <https://doi.org/10.1016/j.resconrec.2020.105375>
 - Wang, K., Liu, J., Xia, J., Wang, Z., Meng, Y., Chen, H., **Mao, G.**, & Ye, B. (2021). Resources , Conservation & Recycling Understanding the impacts of climate change and socio-economic development through food-energy-water nexus : A case study of mekong river delta. Resources, Conservation & Recycling, 167, 105390. <https://doi.org/10.1016/j.resconrec.2020.105390>
 - Chen, H., Liu, J., **Mao, G.**, Wang, Z., Zeng, Z., Chen, A., Wang, K., & Chen, D. (2021). Science of the Total Environment Intercomparison of ten ISI-MIP models in simulating discharges along the Lancang-Mekong River basin. Science of the Total Environment, 765, 144494. <https://doi.org/10.1016/j.scitotenv.2020.144494>
