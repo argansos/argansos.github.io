@@ -21,8 +21,8 @@ tags:
 2. 点击加号添加一个新的选项
 
 3.  输入配置如下：
-> Application: Mail.app // 列表中手动选择
-> Menu Title: Hide Mail // mail中顶栏菜单中的实际操作名称
+> Application: Mail.app // 列表中手动选择<br />
+> Menu Title: Hide Mail // mail中顶栏菜单中的实际操作名称<br />
 > Keyboard Shortcut: ⌘W // 直接在键盘使用command+W就可以设定了
 
 4.  点击add
