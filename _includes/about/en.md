@@ -27,7 +27,7 @@ Ganquan Mao is currently a Research Assistant Professor at Southern University o
 
 #### Publications (Research Articles)
 
-- Zhao, X., Liao, X., Zhang, C., Zhang, X., **Mao**, G., Zhang, S., & Tillotson, M. R. (2021). Unveiling the dynamic of water-electricity conflict within and beyond megacity boundary. Journal of Environmental Management, 286, 112259. <https://doi.org/10.1016/j.jenvman.2021.112259>
+- Zhao, X., Liao, X., Zhang, C., Zhang, X., **Mao, G.**, Zhang, S., & Tillotson, M. R. (2021). Unveiling the dynamic of water-electricity conflict within and beyond megacity boundary. Journal of Environmental Management, 286, 112259. <https://doi.org/10.1016/j.jenvman.2021.112259>
 - Zhang, R., Liu, J., **Mao, G.** & Wang, L. (2021). Analysis of the alteration of the flow regime of Upper Heihe River based on
 improved RVA. Arid Zone Research, 1–10. <https://kns.cnki.net/kcms/detail/65.1095.X.20210118.1748.009.html> [in Chinese]
 - Meng, Y., Liu, J., Wang, Z., **Mao, G.**, Wang, K., & Yang, H. (2021). Resources , Undermined co-benefits of hydropower and irrigation under climate change. Resources, Conservation & Recycling, 167, 105375. <https://doi.org/10.1016/j.resconrec.2020.105375>

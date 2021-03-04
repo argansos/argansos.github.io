@@ -26,7 +26,7 @@
 
 #### 论文发表
 
-- Zhao, X., Liao, X., Zhang, C., Zhang, X., **Mao**, G., Zhang, S., & Tillotson, M. R. (2021). Unveiling the dynamic of water-electricity conflict within and beyond megacity boundary. Journal of Environmental Management, 286, 112259. <https://doi.org/10.1016/j.jenvman.2021.112259>
+- Zhao, X., Liao, X., Zhang, C., Zhang, X., **Mao, G.**, Zhang, S., & Tillotson, M. R. (2021). Unveiling the dynamic of water-electricity conflict within and beyond megacity boundary. Journal of Environmental Management, 286, 112259. <https://doi.org/10.1016/j.jenvman.2021.112259>
 - 张如强, 刘俊国, **冒甘泉**, & 王丽. (2021). 基于改进 RVA 法的黑河上游水文情势变化分析. 干旱区研究, 1–10. <https://kns.cnki.net/kcms/detail/65.1095.X.20210118.1748.009.html>
 - Meng, Y., Liu, J., Wang, Z., **Mao, G.**, Wang, K., & Yang, H. (2021). Resources , Conservation & Recycling Undermined co-benefits of hydropower and irrigation under climate change. Resources, Conservation & Recycling, 167, 105375. <https://doi.org/10.1016/j.resconrec.2020.105375>
 - Wang, K., Liu, J., Xia, J., Wang, Z., Meng, Y., Chen, H., **Mao, G.**, & Ye, B. (2021). Understanding the impacts of climate change and socio-economic development through food-energy-water nexus : A case study of mekong river delta. Resources, Conservation & Recycling, 167, 105390. <https://doi.org/10.1016/j.resconrec.2020.105390>
