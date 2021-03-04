@@ -1,6 +1,6 @@
 > 个人简历
 
-冒甘泉，南方科技研究助理教授（副研究员），主要从事区域气象与水文水资源领域研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（Water And ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等期刊累计发表学术论文21篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
+冒甘泉，南方科技研究助理教授（副研究员），主要从事区域气象与水文水资源领域研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（Water And ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等期刊累计发表学术论文22篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
 
 #### 工作经历
 
@@ -26,9 +26,10 @@
 
 #### 论文发表
 
+- Zhao, X., Liao, X., Zhang, C., Zhang, X., **Mao**, G., Zhang, S., & Tillotson, M. R. (2021). Unveiling the dynamic of water-electricity conflict within and beyond megacity boundary. Journal of Environmental Management, 286, 112259. <https://doi.org/10.1016/j.jenvman.2021.112259>
 - 张如强, 刘俊国, **冒甘泉**, & 王丽. (2021). 基于改进 RVA 法的黑河上游水文情势变化分析. 干旱区研究, 1–10. <https://kns.cnki.net/kcms/detail/65.1095.X.20210118.1748.009.html>
 - Meng, Y., Liu, J., Wang, Z., **Mao, G.**, Wang, K., & Yang, H. (2021). Resources , Conservation & Recycling Undermined co-benefits of hydropower and irrigation under climate change. Resources, Conservation & Recycling, 167, 105375. <https://doi.org/10.1016/j.resconrec.2020.105375>
-- Wang, K., Liu, J., Xia, J., Wang, Z., Meng, Y., Chen, H., **Mao, G.**, & Ye, B. (2021). Resources , Conservation & Recycling Understanding the impacts of climate change and socio-economic development through food-energy-water nexus : A case study of mekong river delta. Resources, Conservation & Recycling, 167, 105390. <https://doi.org/10.1016/j.resconrec.2020.105390>
+- Wang, K., Liu, J., Xia, J., Wang, Z., Meng, Y., Chen, H., **Mao, G.**, & Ye, B. (2021). Understanding the impacts of climate change and socio-economic development through food-energy-water nexus : A case study of mekong river delta. Resources, Conservation & Recycling, 167, 105390. <https://doi.org/10.1016/j.resconrec.2020.105390>
 - Chen, H., Liu, J., **Mao, G.**, Wang, Z., Zeng, Z., Chen, A., Wang, K., & Chen, D. (2021). Science of the Total Environment Intercomparison of ten ISI-MIP models in simulating discharges along the Lancang-Mekong River basin. Science of the Total Environment, 765, 144494. <https://doi.org/10.1016/j.scitotenv.2020.144494>
 - Liu, J., Zhao, D., **Mao, G.**, Cui, W., Chen, H., & Yang, H. (2020). Environmental Sustainability of Water Footprint in Mainland China. Geography and Sustainability, 1, 8–17. <https://doi.org/10.1016/j.geosus.2020.02.002>
 - Meng, Y., Liu, J., Leduc, S., Mesfun, S., Kraxner, F., **Mao, G.**, Qi, W., & Wang, Z. (2020). Hydropower production benefits more from 1.5°C than 2°C climate scenario. Water Resources Research, 55, e2019WR025519. <https://doi.org/10.1029/2019wr025519>
