@@ -1,6 +1,6 @@
 > 个人简历
 
-冒甘泉，南方科技研究助理教授（副研究员），主要从事区域气象与水文水资源领域研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（WAter and ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等期刊累计发表学术论文22篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
+冒甘泉，南方科技大学研究助理教授（副研究员），主要从事区域气象与水文水资源领域研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（WAter and ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等期刊累计发表学术论文22篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
 
 #### 工作经历
 
