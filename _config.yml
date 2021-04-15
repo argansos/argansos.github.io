@@ -103,6 +103,10 @@ page-mathjax: false
 # Friends
 friends: [
     {
+        title: "- Homepage at SUSTech",
+        href: "https://www.sustech.edu.cn/zh/maoganquan.html"
+    }
+    {
         title: "- Scientific Database (SUSTech)",
         href: "http://www.scidb.cn/en/institution/SUSTech"
     }
