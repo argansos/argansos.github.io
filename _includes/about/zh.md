@@ -1,6 +1,6 @@
 > 个人简历
 
-冒甘泉，南方科技大学研究助理教授（副研究员），主要从事区域气象与水文水资源领域研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（WAter and ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等期刊累计发表学术论文22篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
+冒甘泉，南方科技大学研究助理教授（副研究员），主要从事区域气象与水文水资源领域研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（WAter and ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等期刊累计发表学术论文25篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
 
 #### 工作经历
 
@@ -26,6 +26,9 @@
 
 #### 论文发表
 
+- **Mao, G.**, Wang, M., Liu, J., Wang, Z., Wang, K., Meng, Y., Zhong, R., Wang, H., & Li, Y. (2021). Comprehensive comparison of artificial neural networks and long short-term memory networks for rainfall-runoff simulation. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103026. <https://doi.org/10.1016/j.pce.2021.103026>
+- Zhong, R., Wang, P., **Mao, G.**, Chen, A., & Liu, J. (2021). Spatiotemporal variation of enhanced vegetation index in the Amazon Basin and its response to climate change. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103024. <https://doi.org/10.1016/j.pce.2021.103024>
+- Huang, X., Li, Y., Tian, Z., Ye, Q., Ke, Q., Fan, D., **Mao, G.**, Chen, A., & Liu, J. (2021). Evaluation of short-term streamflow prediction methods in Urban river basins. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103027. <https://doi.org/10.1016/j.pce.2021.103027>
 - Zhao, X., Liao, X., Zhang, C., Zhang, X., **Mao, G.**, Zhang, S., & Tillotson, M. R. (2021). Unveiling the dynamic of water-electricity conflict within and beyond megacity boundary. Journal of Environmental Management, 286, 112259. <https://doi.org/10.1016/j.jenvman.2021.112259>
 - 张如强, 刘俊国, **冒甘泉**, & 王丽. (2021). 基于改进 RVA 法的黑河上游水文情势变化分析. 干旱区研究, 1–10. <https://kns.cnki.net/kcms/detail/65.1095.X.20210118.1748.009.html>
 - Meng, Y., Liu, J., Wang, Z., **Mao, G.**, Wang, K., & Yang, H. (2021). Resources , Conservation & Recycling Undermined co-benefits of hydropower and irrigation under climate change. Resources, Conservation & Recycling, 167, 105375. <https://doi.org/10.1016/j.resconrec.2020.105375>
