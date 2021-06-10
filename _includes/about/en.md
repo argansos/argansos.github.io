@@ -27,7 +27,7 @@ Ganquan Mao is currently a Research Assistant Professor at Southern University o
 
 #### Publications (Research Articles)
 
-- **Mao, G.**, Wang, M., Liu, J., Wang, Z., Wang, K., Meng, Y., Zhong, R., Wang, H., & Li, Y. (2021). Comprehensive comparison of artificial neural networks and long short-term memory networks for rainfall-runoff simulation. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103026. <https://doi.org/10.1016/j.pce.2021.103026>
+- **Mao, G.<sup>#</sup>**, Wang, M.<sup>#</sup>, Liu, J., Wang, Z., Wang, K., Meng, Y., Zhong, R., Wang, H., & Li, Y. (2021). Comprehensive comparison of artificial neural networks and long short-term memory networks for rainfall-runoff simulation. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103026. <https://doi.org/10.1016/j.pce.2021.103026>
 - Zhong, R., Wang, P., **Mao, G.**, Chen, A., & Liu, J. (2021). Spatiotemporal variation of enhanced vegetation index in the Amazon Basin and its response to climate change. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103024. <https://doi.org/10.1016/j.pce.2021.103024>
 - Huang, X., Li, Y., Tian, Z., Ye, Q., Ke, Q., Fan, D., **Mao, G.**, Chen, A., & Liu, J. (2021). Evaluation of short-term streamflow prediction methods in Urban river basins. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103027. <https://doi.org/10.1016/j.pce.2021.103027>
 - Zhao, X., Liao, X., Zhang, C., Zhang, X., **Mao, G.**, Zhang, S., & Tillotson, M. R. (2021). Unveiling the dynamic of water-electricity conflict within and beyond megacity boundary. Journal of Environmental Management, 286, 112259. <https://doi.org/10.1016/j.jenvman.2021.112259>
