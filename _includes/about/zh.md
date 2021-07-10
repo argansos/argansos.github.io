@@ -1,6 +1,6 @@
 > 个人简历
 
-冒甘泉，南方科技大学研究助理教授（副研究员），主要从事区域气象与水文水资源领域研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（WAter and ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等期刊累计发表学术论文25篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
+冒甘泉，南方科技大学研究助理教授（副研究员），主要从事区域气象与水文水资源领域相关研究，研究内容包括水文模型开发和应用，气候变化对水文循环影响，全球变化背景下水资源时空演变，基于虚拟水理论的全球变化水资源风险应对等。开发了基于Copula理论的气象驱动数据偏差校正模型CBCT（Copula-based Bias Correction Toolbox）以及大尺度分布式水文模型WAYS（WAter and ecosYstem Simulator）。在Bulletin of the American Meteorological Society，Nature Sustainability，Geoscientific Model Development，Hydrology and Earth System Sciences，Water Resources Research等专业领域期刊累计发表学术论文27篇。出版专著1部，取得软件著作权2份，担任政府间气候变化专门委员会IPCC第六次评估报告水资源章节贡献作者，获深圳市高层次专业人才（孔雀计划C类）奖励。
 
 #### 工作经历
 
@@ -26,6 +26,8 @@
 
 #### 论文发表
 
+- Telteu, C.-E., Müller Schmied, H., Thiery, W., Leng, G., Burek, P., Liu, X., Boulange, J. E. S., Seaby Andersen, L., Grillakis, M., Gosling, S. N., Satoh, Y., Rakovec, O., Stacke, T., Chang, J., Wanders, N., Shah, H. L., Trautmann, T., **Mao, G.**, Hanasaki, N., … Herz, F. (2021). Understanding each other’s models: a standard representation of global water models to support improvement, intercomparison, and communication. Geoscientific Model Development Discussions, 1–56. <https://doi.org/10.5194/gmd-2020-367>
+- Jiang, X., Liang, S., He, X., Ziegler, A. D., Lin, P., Pan, M., Wang, D., Zou, J., Hao, D., **Mao, G.**, Zeng, Y., Yin, J., Feng, L., Miao, C., Wood, E. F., & Zeng, Z. (2021). Rapid and large-scale mapping of flood inundation via integrating spaceborne synthetic aperture radar imagery with unsupervised deep learning. ISPRS Journal of Photogrammetry and Remote Sensing, 178, 36–50. <https://doi.org/10.1016/j.isprsjprs.2021.05.019>
 - **Mao, G.<sup>#</sup>**, Wang, M.<sup>#</sup>, Liu, J., Wang, Z., Wang, K., Meng, Y., Zhong, R., Wang, H., & Li, Y. (2021). Comprehensive comparison of artificial neural networks and long short-term memory networks for rainfall-runoff simulation. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103026. <https://doi.org/10.1016/j.pce.2021.103026>
 - Zhong, R., Wang, P., **Mao, G.**, Chen, A., & Liu, J. (2021). Spatiotemporal variation of enhanced vegetation index in the Amazon Basin and its response to climate change. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103024. <https://doi.org/10.1016/j.pce.2021.103024>
 - Huang, X., Li, Y., Tian, Z., Ye, Q., Ke, Q., Fan, D., **Mao, G.**, Chen, A., & Liu, J. (2021). Evaluation of short-term streamflow prediction methods in Urban river basins. Physics and Chemistry of the Earth, Parts A/B/C, 123, 103027. <https://doi.org/10.1016/j.pce.2021.103027>
